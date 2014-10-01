@@ -2,15 +2,21 @@
 <html>
 <head>
   <title>Pinteresting</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    'application', media: 'all' %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+
+
+<%= tag :meta, :name: "viewport", content: "width=device-width, initial-scaole=1.0" %>
+
 </head>
 <body>
+	<%= render 'layouts/header' %>
 
-<%= link_to "Home", root_path %>
-<%= link_to "About the App", about_path %>
-<%= link_to "Another Page", anotherpage_path %>
+	<%= yield %>
+
+	<%= render 'layouts/footer' %>
+
 
 <%= yield %>
 
