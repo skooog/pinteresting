@@ -17,6 +17,19 @@ gem 'aws-sdk'
 gem 'masonry-rails', '~> 0.2.0'
 gem 'will_paginate', '~> 3.0'
 gem 'will_paginate-bootstrap'
+gem 'nokogiri', '~> 1.6.3.1'
+
+gem 'hoe', '~> 3.7'
+gem 'hoe-bundler', '>= 1.1'
+gem 'hoe-debugging', '>= 1.0.3'
+gem 'hoe-gemspec', '>= 1.0'
+gem 'hoe-git', '>= 1.4'
+gem 'minitest', '>= 2.2.2'
+gem 'racc', '>= 1.4.6'
+gem 'rake', '>= 0.9'
+gem 'rake-compiler', '~> 0.9.2'
+gem 'rdoc', '~> 4.0'
+gem 'rexical', '>= 1.0.5'
 
 
 group :development, :test do
