@@ -30,7 +30,8 @@ gem 'rake', '>= 0.9'
 gem 'rake-compiler', '~> 0.9.2'
 gem 'rdoc', '~> 4.0'
 gem 'rexical', '>= 1.0.5'
-
+gem 'bcrypt'
+gem 'rails_12factor'
 
 group :development, :test do
 	gem 'sqlite3'
@@ -39,7 +40,6 @@ end
 
 #group :production do
 #gem 'pg'
-#	gem 'rails_12factor'
 
 #end
 
