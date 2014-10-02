@@ -3,7 +3,7 @@ body{
 	padding-top: 60px;
 }
 
-@import 'bootstrap-responsive';
+@import 'bootstrap';
 
 .navbar-inner{
 	@include box-shadow(none !important);
