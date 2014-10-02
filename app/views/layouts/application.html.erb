@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>Pinteresting</title>
+<<<<<<< HEAD
   <%= stylesheet_link_tag    'application', media: 'all' %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -17,6 +18,17 @@
 
 	<%= render 'layouts/footer' %>
 
+=======
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= link_to "Home", root_path %>
+<%= link_to "About the App", about_path %>
+<%= link_to "Another Page", anotherpage_path %>
+>>>>>>> 595fb718a64d90c0fd1cb7eab3a91b5b0891e377
 
 <%= yield %>
 
