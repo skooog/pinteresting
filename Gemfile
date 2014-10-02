@@ -15,8 +15,8 @@ gem 'devise', "~> 3.1.0.rc2"
 gem 'paperclip', '~> 3.0'  
 gem 'aws-sdk'
 gem 'masonry-rails', '~> 0.2.0'
-#gem 'will_paginate', '~> 3.0'
-#gem 'will_paginate-bootstrap'
+gem 'will_paginate', '~> 3.0'
+gem 'will_paginate-bootstrap'
 
 
 group :development, :test do
@@ -25,7 +25,7 @@ group :development, :test do
 end
 
 #group :production do
-#	gem 'pg', '0.17.1'
+#gem 'pg'
 #	gem 'rails_12factor'
 
 #end
