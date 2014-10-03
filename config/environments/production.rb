@@ -20,7 +20,8 @@ Rails.application.configure do
   # config.action_dispatch.rack_cache = true
 
   # Disable Rails's static asset server (Apache or nginx will already do this).
-  config.serve_static_assets = true #precompiles on heroku so bootstrap css will work
+  config.serve_static_assets = false #precompiles on heroku so bootstrap css will work
+      #put back to false for heroku deployment?
 
   # Compress JavaScripts and CSS.
   config.assets.js_compressor = :uglifier
