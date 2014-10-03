@@ -48,7 +48,7 @@ end
 group :production do
 gem 'pg' #need version?
 
-#end
+end
 
 group :doc do
 	gem 'sdoc', require: false
