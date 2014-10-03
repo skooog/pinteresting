@@ -48,6 +48,7 @@ end
 
 group :production do
 gem 'pg' #need version?
+gem 'rails_12factor' # trying adding this to production to make bootstrap work on heroku
 
 end
 
