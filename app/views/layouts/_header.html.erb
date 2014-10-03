@@ -1,32 +1,31 @@
-<div class="navbar navbar-fixed-top">
-	<div class="navbar-inner">
-		<div class="container">
-			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</a>	
-			<a class="brand" href="/">Branding!</a>
+<nav class="navbar navbar-inverse navbar-default" role="navigation">
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+			<a class="navbar-brand" href="#">Branding!</a>
+  </div>
 
-			<div class="nav-collapse">
-				<ul>
-					<li>
-						<%= link_to "Home", root_path %>
-					</li>
-					<li>
-						<%= link_to "About the App", about_path %>
-					</li>
-					<li>
-						<%= link_to "Another Page", anotherpage_path %>
-					</li>	
-				</ul>	
-				<ul class="nav pull-right">
-					<li><%= link_to 'Login', '#' %></li>
-				</ul>	
-			</div>	
-		</div>	
-	</div>	
-</div>	
+	<div class="collapse navbar-collapse navbar-ex1-collapse">
+		<ul class="nav navbar-nav navbar-right">
+			<li>
+				<%= link_to "Home", root_path %>
+			</li>
+			<li>
+				<%= link_to "About the App", about_path %>
+			</li>
+			<li>
+				<%= link_to "Another Page", anotherpage_path %>
+			</li>	
+			<li>
+				<%= link_to 'Login', '#' %>
+			</li>
+		</ul>
+	</div>
+</nav>	
 
 
 
