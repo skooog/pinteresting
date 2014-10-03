@@ -6,8 +6,8 @@ gem 'rails', '>= 4.1.6'
 gem 'bootstrap-sass', '~>3.2.0'
 #gem 'sass-rails', '~> 4.0.3'
 gem 'autoprefixer-rails' #suggested by bootstrap-sass installation readme
-gem 'sprockets-rails', '=2.0.0.backport1' #same
-gem 'sprockets', '=2.2.2.backport2' #same
+gem 'sprockets-rails' # , '=2.0.0.backport1' 
+gem 'sprockets', '~>2.8' #'=2.2.2.backport2' #same
 gem 'sass-rails', github: 'guilleiguaran/sass-rails', branch: 'backport'
 	#backport sass-rails version
 gem 'uglifier', '~> 1.3.0'
