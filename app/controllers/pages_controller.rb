@@ -7,5 +7,11 @@ class PagesController < ApplicationController
 
 	def anotherpage
 	end
+
+	def signup
+	end
+
+	def login
+	end
 	
 end

@@ -24,6 +24,7 @@ test:
 	pool: 5
 	timeout: 5000
 
+#heroku does whatever it wants with production and ignores this file. 
 production:
   adapter: postgresql
   encoding: unicode

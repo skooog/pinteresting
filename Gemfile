@@ -7,9 +7,9 @@ ruby '2.1.2'
 	#gem 'sass-rails', '~> 4.0.3'
 	gem 'autoprefixer-rails' #suggested by bootstrap-sass installation readme
 	gem 'sprockets-rails' # , '=2.0.0.backport1' 
-	gem 'sprockets', '2.11.0'  #'~>2.8' #'=2.2.2.backport2' #same
-	gem 'sass-rails', '~>4.0.0' #to fix nil nil class error #github: 'guilleiguaran/sass-rails', branch: 'backport'
-		#backport sass-rails version
+	gem 'sprockets', '=2.11.0'  #'~>2.8' #'=2.2.2.backport2' #same
+	gem 'sass-rails', '~>4.0.2' #to fix nil nil class error #github: 'guilleiguaran/sass-rails', branch: 'backport'
+		#backport sass-rails version #changed from 4.0.0 to 4.0.2 to try to fix bootstrap weirdness
 	gem 'uglifier', '~> 1.3.0'
 	gem 'coffee-rails', '~> 4.0.0'
 	gem 'jquery-rails'
