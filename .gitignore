@@ -16,4 +16,4 @@
 /tmp
 .DS_Store
 Rakefile
-.env
+*.sqlite3
