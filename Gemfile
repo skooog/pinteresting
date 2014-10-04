@@ -38,17 +38,19 @@ ruby '2.1.2'
 	gem 'rdoc', '~> 4.0'
 	gem 'rexical', '>= 1.0.5'
 	gem 'bcrypt'
-	gem 'rails_12factor'
+
 	gem 'unicorn' #use heroku's preferred server instead of webrick
+	gem 'pg'
 
 group :development, :test do
-	gem 'sqlite3'
+	#gem 'sqlite3' #sqlite3 breaks heroku
 
 end
 
 group :production do
-gem 'pg' #need version?
-#gem 'rails_12factor' # trying adding this to production to make bootstrap work on heroku
+	#both of these added to main list of gems above
+#gem 'pg' #need version?
+gem 'rails_12factor' # trying adding this to production to make bootstrap work on heroku
 
 end
 
