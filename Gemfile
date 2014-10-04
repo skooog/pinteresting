@@ -40,11 +40,11 @@ ruby '2.1.2'
 	gem 'bcrypt'
 
 	gem 'unicorn' #use heroku's preferred server instead of webrick
-	gem 'pg'
+	gem 'pg' #because sqlite3 breaks heroku
 
 group :development, :test do
-	#gem 'sqlite3' #sqlite3 breaks heroku
-
+	gem 'better_errors' #these are for debugging per RailsCasts article
+	gem 'binding_of_caller' 
 end
 
 group :production do
