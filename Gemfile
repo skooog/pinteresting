@@ -4,7 +4,7 @@ ruby '2.1.2'
 
 	gem 'rails', '>= 4.1.6'
 	gem 'bootstrap-sass', '~>3.2.0'
-	gem 'ruby-debug'
+	gem 'byebug'
 	gem 'autoprefixer-rails' #suggested by bootstrap-sass installation readme
 	gem 'sprockets-rails' # , '=2.0.0.backport1' 
 	gem 'sprockets', '=2.11.0'  #'~>2.8' #'=2.2.2.backport2' #same
@@ -19,7 +19,7 @@ ruby '2.1.2'
 
 	gem 'devise', "~> 3.1.0.rc2"
 	gem 'paperclip', '~> 3.0'  
-	gem 'aws-sdk', '~>1.16.1' #same version as in omrails pinteresting
+	gem 'aws-sdk'
 	gem 'masonry-rails', '~> 0.2.0'
 	gem 'will_paginate', '~> 3.0'
 	gem 'will_paginate-bootstrap'

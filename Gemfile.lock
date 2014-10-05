@@ -47,6 +47,10 @@ GEM
     bootstrap-sass (3.2.0.2)
       sass (~> 3.2)
     builder (3.2.2)
+    byebug (3.5.1)
+      columnize (~> 0.8)
+      debugger-linecache (~> 1.2)
+      slop (~> 3.6)
     climate_control (0.0.3)
       activesupport (>= 3.0)
     cocaine (0.5.4)
@@ -59,7 +63,9 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.8.0)
+    columnize (0.8.9)
     debug_inspector (0.0.2)
+    debugger-linecache (1.2.0)
     devise (3.1.2)
       bcrypt-ruby (~> 3.0)
       orm_adapter (~> 0.1)
@@ -146,6 +152,7 @@ GEM
     sdoc (0.4.1)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
+    slop (3.6.0)
     sprockets (2.11.0)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -185,6 +192,7 @@ DEPENDENCIES
   better_errors
   binding_of_caller
   bootstrap-sass (~> 3.2.0)
+  byebug
   coffee-rails (~> 4.0.0)
   devise (~> 3.1.0.rc2)
   hoe (~> 3.7)
