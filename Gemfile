@@ -16,7 +16,7 @@ ruby '2.1.2'
 	gem 'turbolinks'
 	gem 'jquery-turbolinks'
 	gem 'jbuilder', '~> 2.0'
-
+	gem 'activerecord'
 	gem 'devise', "~> 3.1.0.rc2"
 	gem 'paperclip', '~> 3.0'  
 	gem 'aws-sdk'

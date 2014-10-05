@@ -186,6 +186,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activerecord
   autoprefixer-rails
   aws-sdk
   bcrypt
