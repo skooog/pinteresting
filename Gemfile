@@ -24,23 +24,23 @@ ruby '2.1.2'
 	gem 'will_paginate', '~> 3.0'
 	gem 'will_paginate-bootstrap'
 	gem 'nokogiri', '~> 1.6.3.1'
-
 	gem 'hoe', '~> 3.7'
 	gem 'hoe-bundler', '>= 1.1'
 	gem 'hoe-debugging', '>= 1.0.3'
 	gem 'hoe-gemspec', '>= 1.0'
 	gem 'hoe-git', '>= 1.4'
-	gem 'minitest', '>= 2.2.2'
+	gem 'minitest' #'>= 2.2.2'
 	gem 'racc', '>= 1.4.6'
-	gem 'rake', '~>10.3.2'
-		#changed rake version-- double-check this
+	gem 'rack', '~> 1.5.2' 
+	gem 'rake', '~> 10.3.2'
 	gem 'rake-compiler', '~> 0.9.2'
 	gem 'rdoc', '~> 4.0'
 	gem 'rexical', '>= 1.0.5'
 	gem 'bcrypt'
-
-	gem 'unicorn' #use heroku's preferred server instead of webrick
-	gem 'pg' #because sqlite3 breaks heroku
+	gem 'sqlite3'
+	gem 'thin', '1.6.3' #because unicorn was driving me up the wall and the server won't start
+	#gem 'unicorn' #use heroku's preferred server instead of webrick
+	#gem 'pg' #because sqlite3 breaks heroku #removed bc need to backtrack
 
 group :development, :test do
 	gem 'better_errors' #these are for debugging per RailsCasts article
@@ -48,8 +48,6 @@ group :development, :test do
 end
 
 group :production do
-	#both of these added to main list of gems above
-#gem 'pg' #need version?
 gem 'rails_12factor' # trying adding this to production to make bootstrap work on heroku
 
 end
