@@ -4,6 +4,7 @@ ruby '2.1.2'
 
 	gem 'rails', '>= 4.1.6'
 	gem 'bootstrap-sass', '~>3.2.0'
+	gem 'font-awesome-sass'
 	gem 'byebug'
 	gem 'autoprefixer-rails' #suggested by bootstrap-sass installation readme
 	gem 'sprockets-rails' # , '=2.0.0.backport1' 

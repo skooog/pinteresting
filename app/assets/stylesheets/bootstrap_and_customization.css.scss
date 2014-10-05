@@ -1,9 +1,11 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+// Variables
 
+
+@import url(http://fonts.googleapis.com/css?family=IM+Fell+DW+Pica);
 
 
 $body-bg: #ecf0f1;
-$font-family-sans-serif: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif ;
+$font-family: 'IM Fell DW Pica', serif;
 $navbar-height: 45px;
 $navbar-default-bg: white ;
 $navbar-default-brand-color: #c0392b;
@@ -14,7 +16,7 @@ $jumbotron-bg: white;
 
 @import 'bootstrap';
 
-
+// Styles
 .center {
 		text-align: center;
 }
