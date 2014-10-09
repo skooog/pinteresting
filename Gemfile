@@ -40,7 +40,7 @@ ruby '2.1.2'
 	gem 'bcrypt'
 	gem 'thin', '1.6.3' #because unicorn was driving me up the wall and the server won't start
 	#gem 'unicorn' #use heroku's preferred server instead of webrick
-	
+	gem 'pg' #because sqlite3 breaks heroku
 
 group :development, :test do
 	gem 'better_errors' #these are for debugging per RailsCasts article
@@ -50,7 +50,7 @@ end
 
 group :production do
 gem 'rails_12factor' # trying adding this to production to make bootstrap work on heroku
-gem 'pg' #because sqlite3 breaks heroku #removed bc need to backtrack
+
 end
 
 group :doc do
